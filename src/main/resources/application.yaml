@@ -7,4 +7,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-
+  mustache:
+    servlet:
+      expose-request-attributes: true
